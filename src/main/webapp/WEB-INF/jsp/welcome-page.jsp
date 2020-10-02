@@ -5,13 +5,27 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
   <title>employee-controller</title>
 </head>
 
 <body>
-  <h3>Employee Controller</h3>
 
+  <div class="top-panel">
+    <h1 id="logo-text">Employee Controller</h1>
+    <hr id="top-line">
+      <div class="top-text">
+        <table>
+          <tr>
+            <th id="add-employee">Add New Employee</th>
+            <th id="update-employee">Update Existing Employee</th>
+            <th id="delete-employee">Delete Employee</th>
+          </tr>
+        </table>
+      </div>
+    <hr id="top-second-line">
+  </div>
+<!--
   <div id="container">
     <div id="content">
       <table>
@@ -33,6 +47,7 @@
       </table>
     </div>
   </div>
+  -->
 </body>
 
 </html>
