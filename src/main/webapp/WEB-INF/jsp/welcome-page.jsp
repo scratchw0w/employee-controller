@@ -15,17 +15,13 @@
     <h1 id="logo-text">Employee Controller</h1>
     <hr id="top-line">
       <div class="top-text">
-        <table>
-          <tr>
-            <th id="add-employee">Add New Employee</th>
-            <th id="update-employee">Update Existing Employee</th>
-            <th id="delete-employee">Delete Employee</th>
-          </tr>
-        </table>
+        <a href="">Add New Employee</a>
+        <a href="">Update Existing Employee</a>
+        <a href="">Delete Employee</a>
       </div>
     <hr id="top-second-line">
   </div>
-<!--
+
   <div id="container">
     <div id="content">
       <table>
@@ -47,7 +43,6 @@
       </table>
     </div>
   </div>
-  -->
 </body>
 
 </html>
