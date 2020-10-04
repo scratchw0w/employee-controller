@@ -14,7 +14,7 @@
     font-size: 40px;
     line-height: 10px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 23px;
 }
 
 #top-line {
@@ -27,7 +27,7 @@
 }
 
 .top-text a {
-    color: #00488A;
+    color: #191970;
     text-decoration: none;
     margin: 7%;
     font-family: Marvel;
@@ -36,12 +36,12 @@
     font-size: 22px;
 }
 
-a:hover{
-    color: brown;
+.top-text a:hover{
+    color: #1E90FF;
 }
 
-a:link{
-    color: #00488A;
+.top-text a:link{
+    color: #191970;
 }
 
 
@@ -51,5 +51,13 @@ a:link{
 }
 
 #container {
-    display: flex;
+    margin-top: 1%; 
+    text-align: center;
+    font-family: Marvel;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#content table {
+    width: 100%;
 }
