@@ -18,19 +18,22 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
     @Override
     public void saveOrUpdateEmployee(Employee employee) {
-        getSession().saveOrUpdate(employee);
+        Session currentSession = getSession();
+        currentSession.saveOrUpdate(employee);
     }
 
     @Override
     public List<Employee> getEmployees() {
-        Query<Employee> employeeQuery = getSession().createQuery("from Employee", Employee.class);
+        Session currentSession = getSession();
+        Query<Employee> employeeQuery = currentSession.createQuery("from Employee", Employee.class);
         List<Employee> employeeList = employeeQuery.getResultList();
         return employeeList;
     }
 
     @Override
     public void deleteEmployeeById(int id) {
-        Query theQuery = getSession().createQuery("delete from Employee where id=:customerId");
+        Session currentSession = getSession();
+        Query theQuery = currentSession.createQuery("delete from Employee where id =: customerId");
         theQuery.setParameter("customerId", id);
         theQuery.executeUpdate();
     }

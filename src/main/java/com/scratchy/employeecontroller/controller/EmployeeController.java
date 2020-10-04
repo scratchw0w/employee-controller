@@ -27,8 +27,6 @@ public class EmployeeController {
 
     @GetMapping("/form")
     public String formPage(Model theModel) {
-        Employee employee = new Employee();
-        theModel.addAttribute("employee", employee);
         return "form-page";
     }
 
