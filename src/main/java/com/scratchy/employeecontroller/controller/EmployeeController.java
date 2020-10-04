@@ -25,7 +25,7 @@ public class EmployeeController {
         return "welcome-page";
     }
 
-    @GetMapping("/form")
+    @GetMapping("/new-employee")
     public String formPage(Model theModel) {
         return "form-page";
     }

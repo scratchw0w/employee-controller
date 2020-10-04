@@ -6,6 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/script.js"></script>
   <title>employee-controller</title>
 </head>
 
@@ -15,9 +16,9 @@
     <h1 id="logo-text">Employee Controller</h1>
     <hr id="top-line">
       <div class="top-text">
-        <a href="">Add New Employee</a>
-        <a href="">Update Existing Employee</a>
-        <a href="">Delete Employee</a>
+        <a href="/new-employee">Add New Employee</a>
+        <input type="button" value="Update Existing Employee" onclick="revealOrHideUpdateSections()">
+        <input type = "button" value="Delete Employee" onclick="revealOrHideDeleteSections()">
       </div>
     <hr id="top-second-line">
   </div>
@@ -38,6 +39,8 @@
             <td> ${tempEmployee.surname} </td>
             <td> ${tempEmployee.age} </td>
             <td> ${tempEmployee.post} </td>
+            <td id="update"><a href="">Update</a></td>
+            <td id="delete"><a href="">Delete</a></td>
           </tr>
         </c:forEach>
       </table>

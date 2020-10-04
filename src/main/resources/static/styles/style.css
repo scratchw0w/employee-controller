@@ -61,3 +61,11 @@
 #content table {
     width: 100%;
 }
+
+#update {
+    display: none;
+}
+
+#delete {
+    display: none;
+}
