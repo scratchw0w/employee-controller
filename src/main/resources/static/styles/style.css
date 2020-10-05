@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #DCDCDC;
+}
+
 
 #logo-text { 
     text-align: center;
