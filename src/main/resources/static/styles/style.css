@@ -48,7 +48,7 @@ body {
     color: #191970;
     text-decoration: none;
     margin: 7%;
-    font-family: Marvel;
+    font-family: 'Marvel', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -84,9 +84,10 @@ body {
 #container {
     margin-top: 1%; 
     text-align: center;
-    font-family: Marvel;
+    font-family: 'Marvel', sans-serif;
     font-style: normal;
     font-weight: normal;
+    font-size: 19px;
 }
 
 #content table {
@@ -127,7 +128,7 @@ body {
 }
 
 #delete-btn a:hover {
-    color: #1E90FF;
+    color: #FF6347;
 }
 
 /* ----------------- MAIN SECTION ENDED ----------------- */

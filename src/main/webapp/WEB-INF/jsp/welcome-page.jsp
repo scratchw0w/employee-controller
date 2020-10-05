@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&family=Source+Sans+Pro:ital@1&family=Marvel:ital,wght@1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
   <script src="scripts/script.js"></script>
   <title>employee-controller</title>
