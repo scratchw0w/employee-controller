@@ -1,3 +1,7 @@
+
+
+/* ----------------- PROJECT SETTINGS SECTION STARTED ----------------- */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +13,10 @@ body {
     background-color: #DCDCDC;
 }
 
+/* ----------------- PROJECT SETTINGS SECTION STARTED ----------------- */
+
+
+/* ----------------- TOP SECTION STARTED ----------------- */
 
 #logo-text { 
     text-align: center;
@@ -62,6 +70,11 @@ body {
     border: 2px solid #00488A;
 }
 
+/* ----------------- TOP SECTION ENDED ----------------- */
+
+
+/* ----------------- MAIN SECTION STARTED ----------------- */
+
 #container {
     margin-top: 1%; 
     text-align: center;
@@ -110,3 +123,12 @@ body {
 #delete-btn a:hover {
     color: #1E90FF;
 }
+
+/* ----------------- MAIN SECTION ENDED ----------------- */
+
+
+/* ----------------- BOTTOM SECTION STARTED ----------------- */
+
+
+
+/* ----------------- BOTTOM SECTION ENDED ----------------- */
