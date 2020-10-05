@@ -44,6 +44,14 @@
     color: #191970;
 }
 
+#top-update-btn {
+    cursor: pointer;
+}
+
+#top-delete-btn {
+    cursor: pointer;
+}
+
 
 #top-second-line {
     width: 100%;
@@ -62,10 +70,39 @@
     width: 100%;
 }
 
-#update {
+#update-btn {
     display: none;
+    height: fit-content;
+    font-weight: bold;
+    padding: 3px 10px;
+    width: fit-content;
+    cursor: pointer;
 }
 
-#delete {
+#update-btn a {
+    text-decoration: none;
+    color: #191970;
+}
+
+#update-btn a:hover {
+    text-decoration: none;
+    color: #1E90FF;
+}
+
+#delete-btn {
     display: none;
+    height: fit-content;
+    font-weight: bold;
+    padding: 3px 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+#delete-btn a {
+    text-decoration: none;
+    color: #191970;
+}
+
+#delete-btn a:hover {
+    color: #1E90FF;
 }

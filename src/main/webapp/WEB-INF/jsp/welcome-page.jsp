@@ -9,7 +9,7 @@
   <script src="scripts/script.js"></script>
   <title>employee-controller</title>
 </head>
-
+ 
 <body>
 
   <div class="top-panel">
@@ -17,8 +17,8 @@
     <hr id="top-line">
       <div class="top-text">
         <a href="/new-employee">Add New Employee</a>
-        <input type="button" value="Update Existing Employee" onclick="revealOrHideUpdateSections()">
-        <input type = "button" value="Delete Employee" onclick="revealOrHideDeleteSections()">
+        <a id="top-update-btn" onclick="revealOrHideUpdateSections()">Update Existing Employee</a>
+        <a id="top-delete-btn" onclick="revealOrHideDeleteSections()">Delete Employee</a>
       </div>
     <hr id="top-second-line">
   </div>
@@ -39,8 +39,8 @@
             <td> ${tempEmployee.surname} </td>
             <td> ${tempEmployee.age} </td>
             <td> ${tempEmployee.post} </td>
-            <td id="update"><a href="">Update</a></td>
-            <td id="delete"><a href="">Delete</a></td>
+            <td id="update-btn"><a href="">Update</a></td>
+            <td id="delete-btn"><a href="">Delete</a></td>
           </tr>
         </c:forEach>
       </table>
