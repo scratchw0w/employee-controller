@@ -1,6 +1,6 @@
 
 
-/* ----------------- PROJECT SETTINGS SECTION STARTED ----------------- */
+/* ----------------- PAGE SETTINGS SECTION STARTED ----------------- */
 
 * {
     box-sizing: border-box;
@@ -18,15 +18,21 @@ body {
 
 /* ----------------- TOP SECTION STARTED ----------------- */
 
-#logo-text { 
+#top-logo-text { 
     text-align: center;
-    font-family: Marvel;
+    font-family: 'Sansita Swashed', cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 10px;
     margin-top: 15px;
     margin-bottom: 23px;
+    cursor: pointer;
+    color: #191970;
+}
+
+#top-logo-text:hover {
+    color: #FF6347;
 }
 
 #top-line {

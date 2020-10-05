@@ -1,0 +1,45 @@
+
+
+/* ----------------- PAGE SETTINGS SECTION STARTED ----------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #DCDCDC;
+}
+
+/* ----------------- PAGE SETTINGS SECTION ENDED ----------------- */
+
+
+/* ----------------- TOP SECTION STARTED ----------------- */
+
+#top-logo-text { 
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 10px;
+    margin-top: 15px;
+    margin-bottom: 23px;
+    cursor: pointer;
+    color: #191970;
+}
+
+#top-logo-text:hover {
+    color: #FF6347;
+}
+
+#top-line {
+    width: 100%;
+    border: 2px solid #00488A;
+}
+
+
+/* ----------------- TOP SECTION ENDED ----------------- */
+

@@ -5,6 +5,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
   <script src="scripts/script.js"></script>
   <title>employee-controller</title>
@@ -13,10 +14,10 @@
 <body>
 
   <div class="top-panel">
-    <h1 id="logo-text">Employee Controller</h1>
+    <h1 id="top-logo-text">Employee Controller</h1>
     <hr id="top-line">
       <div class="top-text">
-        <a href="/new-employee">Add New Employee</a>
+        <a href="/employee-editor">Add New Employee</a>
         <a id="top-update-btn" onclick="revealOrHideUpdateSections()">Update Existing Employee</a>
         <a id="top-delete-btn" onclick="revealOrHideDeleteSections()">Delete Employee</a>
       </div>
@@ -39,7 +40,7 @@
             <td> ${tempEmployee.surname} </td>
             <td> ${tempEmployee.age} </td>
             <td> ${tempEmployee.post} </td>
-            <td id="update-btn"><a href="">Update</a></td>
+            <td id="update-btn"><a href="/employee-editor">Update</a></td>
             <td id="delete-btn"><a href="">Delete</a></td>
           </tr>
         </c:forEach>
