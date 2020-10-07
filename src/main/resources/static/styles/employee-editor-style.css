@@ -13,6 +13,10 @@ body {
     background-color: #DCDCDC;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* ----------------- PAGE SETTINGS SECTION ENDED ----------------- */
 
 
@@ -39,7 +43,6 @@ body {
     width: 100%;
     border: 2px solid #00488A;
 }
-
 
 /* ----------------- TOP SECTION ENDED ----------------- */
 
