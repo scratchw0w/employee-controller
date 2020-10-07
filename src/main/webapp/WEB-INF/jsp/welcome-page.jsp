@@ -18,8 +18,8 @@
     <hr id="top-line">
       <div class="top-text">
         <a href="/employee-editor">Add New Employee</a>
-        <a id="top-update-btn">Update Existing Employee</a>
-        <a id="top-delete-btn">Delete Employee</a>
+        <a id="top-update-btn" onclick="revealOrHideUpdateSections()">Update Existing Employee</a>
+        <a id="top-delete-btn" onclick="revealOrHideDeleteSections()">Delete Employee</a>
       </div>
     <hr id="top-second-line">
   </div>
