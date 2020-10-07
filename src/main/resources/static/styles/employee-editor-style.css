@@ -44,5 +44,24 @@ a {
     border: 2px solid #00488A;
 }
 
+#container {
+    margin-top: 1%;
+    padding-left: 38%;
+    text-align: center;
+    font-family: 'Marvel', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#save-btn {
+    height: fit-content;
+    width: fit-content;
+    font-weight: bold;
+    padding: 3px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Marvel', sans-serif;
+}
 /* ----------------- TOP SECTION ENDED ----------------- */
 
