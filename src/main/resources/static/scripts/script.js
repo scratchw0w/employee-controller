@@ -1,3 +1,7 @@
+const topUpdateButton = document.getElementById('#top-update-btn');
+const topDeleteButton = document.getElementById('top-delete-btn');
+
+
 let isUpdateButtonActive = false;
 let isDeleteButtonActive = false;
 
@@ -51,3 +55,6 @@ function changeDeleteButtonStatus(isActive) {
         return isActive = true;
     }
 }
+
+topUpdateButton.addEventListener("click", revealOrHideUpdateSections);
+topDeleteButton.addEventListener("click", revealOrHideDeleteSections);
