@@ -23,6 +23,13 @@ public class EmployeeDaoImpl implements EmployeeDao {
     }
 
     @Override
+    public Employee getEmployeeById(int id) {
+        Session currentSession = getSession();
+        Employee employee = currentSession.get(Employee.class, id);
+        return employee;
+    }
+
+    @Override
     public List<Employee> getEmployees() {
         Session currentSession = getSession();
         Query<Employee> employeeQuery = currentSession.createQuery("from Employee", Employee.class);
@@ -37,7 +44,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
         theQuery.setParameter("customerId", id);
         theQuery.executeUpdate();
     }
- 
+
     private Session getSession(){
         Session session = entityManager.unwrap(Session.class);
         return session;

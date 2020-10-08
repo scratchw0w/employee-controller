@@ -18,7 +18,10 @@
 
   <div id="container">
       <form:form action="save-employee" modelAttribute="employee" method="POST">
-      <table>
+      
+       <form:hidden path="id" />
+       
+       <table>
         <tbody>
           <tr>
             <td><label>Name: </label></td>
@@ -41,7 +44,7 @@
             <td><input type="submit" value="Save" id="save-btn"/></td>
           </tr>
         </tbody>
-      </table>
+       </table>
     </form:form>
   </div>
 </body>

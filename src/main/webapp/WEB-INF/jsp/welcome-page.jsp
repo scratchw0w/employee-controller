@@ -36,6 +36,10 @@
 
         <c:forEach var="tempEmployee" items="${employees}">
 
+          <c:url var="updateLink" value="/update-employee">
+            <c:param name="employeeId" value="${tempEmployee.id}" />
+          </c:url>
+
           <c:url var="deleteLink" value="/delete-employee">
             <c:param name="employeeId" value="${tempEmployee.id}" />
           </c:url>
@@ -45,7 +49,7 @@
             <td> ${tempEmployee.surname} </td>
             <td> ${tempEmployee.age} </td>
             <td> ${tempEmployee.post} </td>
-            <td id="update-btn"><a href="">Update</a></td>
+            <td id="update-btn"><a href="${updateLink}">Update</a></td>
             <td id="delete-btn"><a href="${deleteLink}">Delete</a></td>
           </tr>
         </c:forEach>
