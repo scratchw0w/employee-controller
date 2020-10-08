@@ -8,6 +8,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 import lombok.Data;
 
@@ -22,17 +24,21 @@ public class Employee {
     private int id;
     
     @Column(name = "name")
+    @Size(min = 2, max = 18, message="Enter your name")
     private String name;
 
     @Column(name = "surname")
+    @Size(min = 2, max = 30, message="Enter your surname")
     private String surname;
 
     @Column(name = "age")
-    @Min(value = 0, message = "Must be greater than zero")
+    @NotNull(message = "is required")
+    @Min(value = 16, message = "Must be greater than 16")
     @Max(value = 120, message = "Invalid value")
     private int age;
 
     @Column(name = "post")
+    @Size(min = 2, max = 30, message="Enter your post")
     private String post;
 
 

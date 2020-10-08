@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+.error {
+    color: #DC143C;
+}
+
 /* ----------------- PAGE SETTINGS SECTION ENDED ----------------- */
 
 

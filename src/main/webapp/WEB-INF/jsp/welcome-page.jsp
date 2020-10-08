@@ -36,11 +36,11 @@
 
         <c:forEach var="tempEmployee" items="${employees}">
 
-          <c:url var="updateLink" value="/update-employee">
+          <c:url var="updateLink" value="/update-employee-process">
             <c:param name="employeeId" value="${tempEmployee.id}" />
           </c:url>
 
-          <c:url var="deleteLink" value="/delete-employee">
+          <c:url var="deleteLink" value="/delete-employee-process">
             <c:param name="employeeId" value="${tempEmployee.id}" />
           </c:url>
 
