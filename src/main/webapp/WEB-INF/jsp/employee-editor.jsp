@@ -25,19 +25,19 @@
         <tbody>
           <tr>
             <td><label>Name: </label></td>
-            <td><form:input path="name" /></td>
+            <td><form:input path="name" id="text-input" /></td>
           </tr>
           <tr>
             <td><label>Surname: </label></td>
-            <td><form:input path="surname" /></td>
+            <td><form:input path="surname" id="text-input" /></td>
           </tr>
           <tr>
             <td><label>Age: </label></td>
-            <td><form:input path="age" /></td>
+            <td><form:input path="age" id="text-input" /> <form:errors path="age" /></td>
           </tr>
           <tr>
             <td><label>Post: </label></td>
-            <td><form:input path="post" /></td>
+            <td><form:input path="post" id="text-input" /></td>
           </tr>
           <tr>
             <td><label></label></td>

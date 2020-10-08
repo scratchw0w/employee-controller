@@ -6,6 +6,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 
 import lombok.Data;
 
@@ -26,6 +28,8 @@ public class Employee {
     private String surname;
 
     @Column(name = "age")
+    @Min(value = 0, message = "Must be greater than zero")
+    @Max(value = 120, message = "Invalid value")
     private int age;
 
     @Column(name = "post")

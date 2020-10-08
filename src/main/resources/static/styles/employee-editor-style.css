@@ -54,14 +54,32 @@ a {
     font-size: 20px;
 }
 
+#text-input {
+    padding: 3px 10px;
+    background-color: rgba(139, 179, 224, 0.377);
+    border: 1px solid grey;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 200px;
+    height: 20px;
+}
+
+#text-input:focus {
+    background-color: rgba(4, 99, 163, 0.274);
+    outline-color: blue;
+    outline-style: hidden;
+    outline-width: 4pt;
+} 
+
 #save-btn {
+    font-family: 'Marvel', sans-serif;
     height: fit-content;
     width: fit-content;
     font-weight: bold;
     padding: 3px 10px;
     cursor: pointer;
     font-size: 15px;
-    font-family: 'Marvel', sans-serif;
 }
+
 /* ----------------- TOP SECTION ENDED ----------------- */
 
