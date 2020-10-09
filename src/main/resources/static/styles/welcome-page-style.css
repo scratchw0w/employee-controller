@@ -134,6 +134,27 @@ body {
 
 /* ----------------- BOTTOM SECTION STARTED ----------------- */
 
+#contacts {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 
+    font-family: 'Marvel', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: larger;
+    text-decoration: none;
+
+    padding: 10px;
+    margin-bottom: auto;
+    width: 100%;
+    text-align: right;
+    color: rgb(102, 102, 102);
+}
+
+#contacts:hover {
+    cursor: pointer;
+    color: #0c00b6;
+}
 
 /* ----------------- BOTTOM SECTION ENDED ----------------- */
