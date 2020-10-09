@@ -9,7 +9,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.Pattern;
 
 import lombok.Data;
 
@@ -24,11 +24,11 @@ public class Employee {
     private int id;
     
     @Column(name = "name")
-    @Size(min = 2, max = 18, message="Enter your name")
+    @Pattern(regexp="^[a-zA-Z]{2,18}", message = "Invalid name")
     private String name;
 
     @Column(name = "surname")
-    @Size(min = 2, max = 30, message="Enter your surname")
+    @Pattern(regexp="^[a-zA-Z]{2,18}", message = "Invalid name")
     private String surname;
 
     @Column(name = "age")
@@ -38,7 +38,7 @@ public class Employee {
     private int age;
 
     @Column(name = "post")
-    @Size(min = 2, max = 30, message="Enter your post")
+    @Pattern(regexp="^[a-zA-Z0-9]{2,18}", message = "Invalid name")
     private String post;
 
 

@@ -1,11 +1,8 @@
 package com.scratchy.employeecontroller.controller;
 
 import java.util.List;
-import java.util.Set;
 
-import javax.validation.ConstraintViolation;
 import javax.validation.Valid;
-import javax.validation.Validation;
 
 import com.scratchy.employeecontroller.model.Employee;
 import com.scratchy.employeecontroller.service.EmployeeService;
