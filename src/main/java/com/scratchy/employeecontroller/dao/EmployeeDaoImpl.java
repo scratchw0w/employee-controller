@@ -1,5 +1,6 @@
 package com.scratchy.employeecontroller.dao;
 
+import java.util.Collections;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -34,6 +35,9 @@ public class EmployeeDaoImpl implements EmployeeDao {
         Session currentSession = getSession();
         Query<Employee> employeeQuery = currentSession.createQuery("from Employee", Employee.class);
         List<Employee> employeeList = employeeQuery.getResultList();
+        if(employeeList.size() == 0) {
+            return Collections.emptyList();
+        }
         return employeeList;
     }
 
