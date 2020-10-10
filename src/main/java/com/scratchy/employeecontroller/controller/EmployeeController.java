@@ -50,14 +50,14 @@ public class EmployeeController {
         }
     }
 
-    @GetMapping("/update-employee-process")
+    @GetMapping("/update-employee")
     public String updateEmployee(@RequestParam("employeeId") int employeeId, Model theModel){
         Employee employee = emoloyeeService.getEmployeeById(employeeId);
         theModel.addAttribute("employee", employee);
         return "employee-editor";
     }
 
-    @GetMapping("/delete-employee-process")
+    @GetMapping("/delete-employee")
     public String deleteEmployee(@ModelAttribute("employeeId") int employeeId) {
         emoloyeeService.deleteEmployeeById(employeeId);
         return "redirect:/";

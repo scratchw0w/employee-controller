@@ -37,11 +37,11 @@
 
         <c:forEach var="tempEmployee" items="${employees}">
 
-          <c:url var="updateLink" value="/update-employee-process">
+          <c:url var="updateLink" value="/update-employee">
             <c:param name="employeeId" value="${tempEmployee.id}" />
           </c:url>
 
-          <c:url var="deleteLink" value="/delete-employee-process">
+          <c:url var="deleteLink" value="/delete-employee">
             <c:param name="employeeId" value="${tempEmployee.id}" />
           </c:url>
 
@@ -58,7 +58,7 @@
     </div>
   </div>
 
-  <a href="https://github.com/scratchw0w" id="contacts">@scratchy</a>
+  <a href="https://scratchw0w.github.io/" id="contacts">@scratchy</a>
 </body>
 
 </html>
