@@ -28,7 +28,7 @@ public class Employee {
     private String name;
 
     @Column(name = "surname")
-    @Pattern(regexp="^[a-zA-Z]{2,18}", message = "Invalid name")
+    @Pattern(regexp="^[a-zA-Z]{2,18}", message = "Invalid surname")
     private String surname;
 
     @Column(name = "age")
@@ -38,7 +38,7 @@ public class Employee {
     private int age;
 
     @Column(name = "post")
-    @Pattern(regexp="^[a-zA-Z0-9]{2,18}", message = "Invalid name")
+    @Pattern(regexp="^[a-zA-Z0-9\\-]{2,18}", message = "Invalid post")
     private String post;
 
 
