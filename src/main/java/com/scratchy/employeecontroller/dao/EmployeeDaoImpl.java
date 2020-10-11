@@ -4,7 +4,8 @@ import java.util.Collections;
 import java.util.List;
 
 import javax.persistence.EntityManager;
-import com.scratchy.employeecontroller.model.Employee;
+
+import com.scratchy.employeecontroller.dto.Employee;
 
 import org.hibernate.Session;
 import org.hibernate.query.Query;

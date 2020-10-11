@@ -1,4 +1,4 @@
-package com.scratchy.employeecontroller.model;
+package com.scratchy.employeecontroller.dto;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

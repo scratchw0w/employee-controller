@@ -2,7 +2,7 @@ package com.scratchy.employeecontroller.dao;
 
 import java.util.List;
 
-import com.scratchy.employeecontroller.model.Employee;
+import com.scratchy.employeecontroller.dto.Employee;
 
 public interface EmployeeDao {
     
