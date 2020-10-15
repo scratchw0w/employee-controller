@@ -5,7 +5,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import com.scratchy.employeecontroller.dao.EmployeeDao;
-import com.scratchy.employeecontroller.dto.Employee;
+import com.scratchy.employeecontroller.model.Employee;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

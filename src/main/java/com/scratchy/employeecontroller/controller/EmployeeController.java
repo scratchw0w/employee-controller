@@ -4,7 +4,7 @@ import java.util.List;
 
 import javax.validation.Valid;
 
-import com.scratchy.employeecontroller.dto.Employee;
+import com.scratchy.employeecontroller.model.Employee;
 import com.scratchy.employeecontroller.service.EmployeeService;
 
 import org.springframework.beans.factory.annotation.Autowired;
