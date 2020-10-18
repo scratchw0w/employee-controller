@@ -99,11 +99,6 @@
 		</dependency>
 
 	</dependencies>
-
-	<manifest>
-		<addClasspath>true</addClasspath>
-		<mainClass>org.selenide.examples.NBU</mainClass>
-	</manifest>
 	
 	<build>
     <plugins>
