@@ -39,7 +39,7 @@
             <td><form:errors path="age" cssClass="error" /></td>
           </tr>
           <tr>
-            <td><label>Post: </label></td>
+            <td><label>Position: </label></td>
             <td><form:input path="post" id="text-input" /></td>
             <td><form:errors path="post" cssClass="error" /></td>
           </tr>
